@@ -1,4 +1,5 @@
 # Solana eBPF ASM Noop
+program_id: Au8B1r8de77AMbrnJBc9ydxsSr4XRYFsNsNXAKZSfFE1
 An sbpf assembly program that has been heavily optimized to do nothing whatsover in just ___336 bytes___. It represents the current optimal implementation in regards to both computational and storage complexity as allowed by [solana_rbpf](https://github.com/solana-labs/rbpf). A more storage-optimal version may be possible with a VM library that places fewer seemingly arbitrary constraints on program section headers.
 
 ### Introduction
